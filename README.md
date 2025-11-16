@@ -35,19 +35,9 @@ This project consists of two main tasks:
 
 ```
 project/
-├── data/                           # Data directory
-│   ├── README.md                  # Data documentation
-│   └── survey_results_public.csv  # Main dataset (not in repo)
 ├── notebooks/                      # Jupyter notebooks
 │   ├── README.md
 │   └── project.ipynb              # Main project notebook
-├── src/                            # Source code modules
-│   └── README.md
-├── reports/                        # Generated reports
-│   ├── README.md
-│   └── salary_prediction_results.csv
-├── figures/                        # Generated visualizations
-│   └── README.md
 ├── README.md                       # This file
 ├── requirements.txt                # Python dependencies
 ├── run.sh                         # Automated execution script
@@ -65,8 +55,8 @@ project/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/salary-prediction.git
-cd salary-prediction
+git clone https://github.com/yourusername/Salary-pay-equity-analysis.git
+cd Salary-pay-equity-analysis
 ```
 
 2. **Create a virtual environment**:
@@ -81,8 +71,8 @@ pip install -r requirements.txt
 ```
 
 4. **Download the dataset**:
-- Download `survey_results_public.csv` from [Stack Overflow Survey](https://survey.stackoverflow.co/)
-- Place it in the `data/` folder
+- Download `survey_results_public.csv` from [Stack Overflow Survey 2024](https://survey.stackoverflow.co/)
+- Place it in the same folder
 
 ### Running the Project
 
@@ -96,31 +86,11 @@ bash run.sh
 jupyter notebook notebooks/project.ipynb
 ```
 
-## 📈 Key Results
-
-### Salary Prediction Model (Random Forest)
-- **R² Score**: ~0.65-0.70 (explains 65-70% of variance)
-- **MAE**: ~$15,000-20,000
-- **RMSE**: ~$25,000-35,000
-
-### Top Salary Factors
-1. Experience (Years of Professional Coding)
-2. Country/Location
-3. Job Role/Developer Type
-4. Education Level
-5. Organization Size
-
-### Fairness Analysis
-- Identifies underpaid vs fairly paid professionals
-- Shows which roles/countries/education levels have pay equity issues
-- Provides actionable insights for compensation analysis
-
 ## 📁 File Descriptions
 
 | File | Purpose |
 |------|---------|
 | `project.ipynb` | Main Jupyter notebook with full analysis |
-| `project_output.ipynb` | Executed notebook with all results |
 | `run.sh` | Automated script to install dependencies and run notebook |
 | `requirements.txt` | Python package dependencies |
 | `salary_prediction_results.csv` | Model predictions and residuals |
@@ -146,38 +116,11 @@ jupyter>=1.0.0
 nbconvert>=7.8.0
 ```
 
-## 💡 Usage Examples
-
-### Run the complete pipeline
-```bash
-bash run.sh
-```
-
-### Access results programmatically
-```python
-import pandas as pd
-results = pd.read_csv('reports/salary_prediction_results.csv')
-print(results.head())
-```
-
 ## 📝 Notes
 
 - The dataset is large (~153 MB) and is not included in the Git repository
 - First run will take 5-10 minutes to process the data and train models
-- All visualizations are saved in the `figures/` directory
 - Results are saved to `reports/salary_prediction_results.csv`
-
-## 🤝 Contributing
-
-Feel free to fork this project and submit pull requests for improvements!
-
-## 📄 License
-
-This project is open source and available under the MIT License.
-
-## 📧 Contact
-
-For questions or feedback, please open an issue in the repository.
 
 ---
 
