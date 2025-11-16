@@ -5,7 +5,7 @@ This directory contains datasets used in the Machine Learning project.
 ## Data Files
 
 ### survey_results_public.csv
-- **Description**: Stack Overflow Developer Survey dataset
+- **Description**: Stack Overflow Developer Survey 2024 dataset
 - **Size**: ~153 MB
 - **Columns**: Contains salary, experience, education, country, and other developer-related information
 - **Purpose**: Used for salary prediction and fairness classification models
