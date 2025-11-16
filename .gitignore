@@ -1,0 +1,61 @@
+# Git Ignore Rules
+
+# Data files (too large for Git)
+data/survey_results_public.csv
+data/*.csv
+
+# Output files (generated during execution)
+reports/salary_prediction_results.csv
+reports/*.csv
+figures/*.png
+figures/*.jpg
+figures/*.pdf
+
+# Jupyter output
+project_output.ipynb
+project_run.py
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+.jupyter/
+
+# OS
+Thumbs.db
+.DS_Store
