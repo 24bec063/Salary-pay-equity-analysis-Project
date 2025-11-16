@@ -55,8 +55,8 @@ project/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/Salary-pay-equity-analysis.git
-cd Salary-pay-equity-analysis
+git clone https://github.com/yourusername/Salary-pay-equity-analysis-Project.git
+cd Salary-pay-equity-analysis-Project
 ```
 
 2. **Create a virtual environment**:
