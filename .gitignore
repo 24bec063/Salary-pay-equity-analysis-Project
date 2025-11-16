@@ -1,6 +1,7 @@
 # Git Ignore Rules
 
 # Data files (too large for Git)
+*.csv
 data/survey_results_public.csv
 data/*.csv
 
