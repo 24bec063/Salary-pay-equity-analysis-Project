@@ -36,12 +36,16 @@ echo "Data file found: survey_results_public.csv"
 
 echo ""
 echo "[3/4] Executing the project notebook..."
+# Copy the CSV to notebooks directory so the notebook can find it
+cp survey_results_public.csv notebooks/
+cd notebooks
 jupyter nbconvert --to notebook --execute project.ipynb --output project_output.ipynb
+cd ..
 
 echo ""
 echo "========================================="
 echo "✓ Project execution completed successfully!"
 echo "Results saved to:"
 echo "  - salary_prediction_results.csv"
-echo "  - project_output.ipynb (executed notebook)"
+echo "  - notebooks/project_output.ipynb (executed notebook)"
 echo "========================================="
