@@ -55,7 +55,7 @@ project/
 
 1. **Clone the repository**:
 ```bash
-git clone https://github.com/yourusername/Salary-pay-equity-analysis-Project.git
+git clone https://github.com/24bec063/Salary-pay-equity-analysis-Project.git
 cd Salary-pay-equity-analysis-Project
 ```
 
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 ```
 
 4. **Download the dataset**:
-- Download `survey_results_public.csv` from [Stack Overflow Survey 2024](https://survey.stackoverflow.co/)
+- Download `survey_results_public.csv` from [Stack Overflow Survey](https://survey.stackoverflow.co/) for the year 2024.
 - Place it in the same folder
 
 ### Running the Project
