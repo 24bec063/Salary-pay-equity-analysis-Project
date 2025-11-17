@@ -57,6 +57,7 @@ project/
 ```bash
 git clone https://github.com/24bec063/Salary-pay-equity-analysis-Project.git
 cd Salary-pay-equity-analysis-Project
+code .
 ```
 
 2. **Create a virtual environment**:
