@@ -35,14 +35,16 @@ This project consists of two main tasks:
 
 ```
 project/
-├── notebooks/                      # Jupyter notebooks
+├── notebooks/                     # Jupyter notebooks
 │   ├── README.md
 │   └── project.ipynb              # Main project notebook
-├── README.md                       # This file
-├── requirements.txt                # Python dependencies
-├── run.sh                         # Automated execution script
-└── .gitignore                     # Git ignore rules
+├── .gitignore                 # Git ignore rules
+├── PROJECT_LOG.MD             # log file
+├── README.md                  # This file
+├── requirements.txt           # Python dependencies
+└── run.sh                     # Automated execution script
 ```
+
 
 ## 🚀 Quick Start
 
